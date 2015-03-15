@@ -1,0 +1,17 @@
+<html>
+
+<div  data-ng-controller="MenuCtrl" data-ng-show="userDetail.auth">
+
+	<div class="form-group" data-ng-show="userDetail.auth">
+		<h5 style="display: inline-block;">
+			<span class="label label-default">PostOffice RD</span>
+		</h5>
+		<input class="btn btn-success navbar-right" type="submit" data-ng-click="logout()" value="Logout" />
+	</div>
+
+	<ul class="nav nav-pills nav-tabs">
+		<li role="presentation" ng-class="classActive('/homePage')"><a href="#/homePage">Home</a>
+		<li role="presentation" ng-class="classActive('/profile')"><a href="#/profile" >Profile</a>
+	</ul>
+</div>
+</html>

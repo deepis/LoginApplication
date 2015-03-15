@@ -1,0 +1,26 @@
+@media ( min-width : 768px) {
+	.omb_row-sm-offset-3 div:first-child[class*="col-"] {
+		margin-left: 25%;
+	}
+}
+.login .loginform .input-group-addon {
+	border-radius: 4px 0px 0px 4px;
+}
+.login .loginform .form-control {
+	border-radius: 0px 4px 4px 0px;
+}
+.login .loginform .input-group{
+	margin-bottom: 10px;
+}
+.login .loginform .error-block{
+	color: red;
+}
+.login .title {
+	text-align: center;
+}
+@media ( min-width : 768px) {
+	.login .forgotpwd {
+		text-align: right;
+		margin-top: 10px;
+	}
+}
